@@ -23,15 +23,16 @@ void loop() {
     DigiKeyboard.update();
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(1000);
-  DigiKeyboard.sendKeyStroke(KEY_D, MOD_GUI_LEFT);
+  DigiKeyboard.sendKeyStroke(KEY_D, MOD_GUI_LEFT); //minimise all windows
   DigiKeyboard.delay(1000);  
-  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_RIGHT);
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_RIGHT); //open run dialogue
   
  DigiKeyboard.delay(1000);
  DigiKeyboard.sendKeyStroke(0);
-  DigiKeyboard.print("iexplore https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  DigiKeyboard.print("iexplore https://www.youtube.com/watch?v=dQw4w9WgXcQ"); //point to iexplore and pass rick astley link
    DigiKeyboard.delay(1000);
-    DigiKeyboard.sendKeyStroke(KEY_ENTER);
+    DigiKeyboard.sendKeyStroke(KEY_ENTER); //press ok
+  
     
    }
 
