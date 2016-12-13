@@ -29,7 +29,7 @@ void loop() {
   
  DigiKeyboard.delay(1000);
  DigiKeyboard.sendKeyStroke(0);
-  DigiKeyboard.print("iexplore https://www.youtube.com/watch?v=dQw4w9WgXcQ"); //point to iexplore and pass rick astley link
+  DigiKeyboard.print("iexplore https://www.youtube.com/watch?v=oHg5SJYRHA0"); //point to iexplore and pass rick astley link
    DigiKeyboard.delay(1000);
     DigiKeyboard.sendKeyStroke(KEY_ENTER); //press ok
   
